@@ -1,0 +1,59 @@
+[
+  {
+    "keyboard_name": "hot_meals",
+    "buttons": [
+      {
+        "id": "100",
+        "name": "Овсянка",
+        "price": "4",
+        "size": "200",
+        "to_print": "Описание вкусной овсянки",
+        "next_keyboard": "hot_meals"
+      },
+      {
+        "id": "101",
+        "name": "Домой",
+        "to_print": "Вы вернулись в главное меню",
+        "next_keyboard": "main"
+      }
+    ]
+  },
+  {
+    "keyboard_name": "dessert_meals",
+    "buttons": [
+      {
+        "id": "200",
+        "name": "Курага в сметане",
+        "price": "5",
+        "size": "300",
+        "to_print": "Вкусная курага в сметане",
+        "next_keyboard": "dessert_meals"
+      },
+      {
+        "id": "201",
+        "name": "Домой",
+        "to_print": "Вы вернулись в главное меню",
+        "next_keyboard": "main"
+      }
+    ]
+  },
+  {
+    "keyboard_name": "drinks",
+    "buttons": [
+      {
+        "id": "300",
+        "name": "Кока-кола",
+        "price": "2",
+        "size": "250",
+        "to_print": "Просто кока-кола",
+        "next_keyboard": "drinks"
+      },
+      {
+        "id": "301",
+        "name": "Домой",
+        "to_print": "Вы вернулись в главное меню",
+        "next_keyboard": "main"
+      }
+    ]
+  }
+]
